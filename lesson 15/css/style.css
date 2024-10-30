@@ -1,0 +1,46 @@
+#static{
+    position: static;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+#relative{
+    position:relative;
+    border:2px solid black;
+    width:250px;
+    height: 250px;
+    padding: 20px;
+    top: 50px;
+    left:20px;
+}
+#fixed{
+    position: fixed;
+    border: 2px solid black;
+    width:250px;
+    height: 250px;
+    padding: 20px;
+    top: 100px;/*prej the top of the page*/
+    right:20px;
+}
+#parent{
+    position:relative;
+    width:250px;
+    height: 250px;
+    border:2px solid black;
+    top:100px;
+}
+#absolute{/*by default del ne left top te parentit te vet*//*nuk e merr parasysh te gjithe faqen por vetem parentin e saj, leviz bashk me parent*/
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    top: 50px;
+    left: 50px;
+}
+#sticky{/*stick gjate scroll*/
+    position: sticky;
+    background-color: bisque;
+    top: 0;
+    padding:20px;
+}
